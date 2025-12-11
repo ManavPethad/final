@@ -3,12 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Basic Page</title>
+    <title>Neon Gaming Café</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0c1021;
+            color: #fff;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #7f00ff, #00e5ff);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 42px;
+            font-weight: 800;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background: #1a2238;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #2c3558;
+        }
+
+        .card h2 {
+            margin: 0 0 10px;
+            color: #00e5ff;
+        }
+
+        .price-box {
+            display: flex;
+            justify-content: space-between;
+            background: #111729;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-top: 15px;
+            border: 1px solid #2b3457;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0b0f1c;
+            color: #8892b0;
+            margin-top: 40px;
+        }
+
+        .btn {
+            background: #00e5ff;
+            color: #000;
+            padding: 12px 18px;
+            border-radius: 8px;
+            display: inline-block;
+            margin-top: 15px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            background: #7f00ff;
+            color: #fff;
+        }
+    </style>
 </head>
+
 <body>
 
-    <h1>Welcome to My Website</h1>
-    <p>This is a basic HTML page.</p>
+    <header>
+        <h1>Neon Gaming Café</h1>
+        <p>High-performance PCs • Chill Lounge • Tournaments • Snacks</p>
+    </header>
+
+    <div class="section">
+        <div class="card">
+            <h2>💻 About Us</h2>
+            <p>Welcome to Neon Gaming Café — the perfect place for gamers who love performance, comfort, and community. 
+            Enjoy high-end PCs, fast internet, RGB setups, and a relaxed atmosphere.</p>
+        </div>
+
+        <div class="card">
+            <h2>🔥 Pricing</h2>
+
+            <div class="price-box">
+                <span>1 Hour</span>
+                <span><b>₹40</b></span>
+            </div>
+
+            <div class="price-box">
+                <span>3-Hour Pack</span>
+                <span><b>₹110</b></span>
+            </div>
+
+            <div class="price-box">
+                <span>Night Pass</span>
+                <span><b>₹300</b></span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>🎮 Games Available</h2>
+            <p>Valorant • CS2 • GTA V • Fortnite • FIFA • Apex Legends • COD • PUBG PC</p>
+        </div>
+
+        <a href="#" class="btn">Book Your Seat</a>
+    </div>
+
+    <footer>
+        © 2025 Neon Gaming Café — Powered by Gamers.
+    </footer>
 
 </body>
 </html>
